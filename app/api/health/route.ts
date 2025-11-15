@@ -4,7 +4,7 @@ export async function GET(): Promise<Response> {
   return new Response(
     JSON.stringify({
       status: "healthy",
-      service: "Recruiting Agent",
+      service: "Recruiting-Chatbot",
       timestamp: new Date().toISOString(),
       version: "1.0.0",
     }),

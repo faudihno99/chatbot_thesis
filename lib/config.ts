@@ -5,16 +5,11 @@ export const WORKFLOW_ID =
 
 export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
-export const STARTER_PROMPTS: StartScreenPrompt[] = [
-  {
-    label: "Prozess starten",
-    prompt: "Prozess starten",
-  },
-];
+export const STARTER_PROMPTS: StartScreenPrompt[] = [];
 
-export const PLACEHOLDER_INPUT = "Fragen Sie den Recruiting Agent...";
+export const PLACEHOLDER_INPUT = "Fragen Sie den Recruiting-Chatbot...";
 
-export const GREETING = "Hallo! Ich bin der Recruiting Agent. Wie kann ich Ihnen heute helfen?";
+export const GREETING = "Hallo! Ich bin Ihr Recruiting-Chatbot. Wie kann ich Ihnen heute helfen?";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {

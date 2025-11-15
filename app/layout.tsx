@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Recruiting Agent",
-  description: "Treffen Sie den Recruiting Agent, Ihren intelligenten KI-Assistenten für Recruiting",
+  title: "Recruiting-Chatbot",
+  description: "Treffen Sie den Recruiting-Chatbot, Ihren intelligenten KI-Assistenten für Recruiting",
 };
 
 export default function RootLayout({
